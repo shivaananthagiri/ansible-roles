@@ -2,5 +2,4 @@
   hosts: localhost
   become: yes   # it will give root access
   roles: 
-  - {{component}}"
-  
+  - "{{component}}"
