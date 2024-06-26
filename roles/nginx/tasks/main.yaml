@@ -1,0 +1,4 @@
+- name: calling a pgm from common folder
+  ansible.builtin.import_role:
+    name: common  # folder name
+    tasks_from: main.yaml  # file name
