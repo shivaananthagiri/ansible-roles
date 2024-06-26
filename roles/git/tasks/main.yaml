@@ -1,0 +1,4 @@
+- name: callig the file from common folder
+  ansible.builtin.import_file:
+    name: common
+    import_file: packages.yaml
