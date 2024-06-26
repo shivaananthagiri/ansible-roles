@@ -1,4 +1,7 @@
 - name: calling a pgm from common folder
   ansible.builtin.import_role:
     name: common  # folder name
-    tasks_from: main.yaml  # file name
+    tasks_from: main.yaml  # file name and extention (i.e .yaml/.ini,.sh,e.t.c..) is optional it will automatically consider it.
+
+    # the above syntax is used to call common folder file in any folder file...
+    
