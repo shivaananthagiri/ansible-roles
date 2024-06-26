@@ -1,4 +1,5 @@
-- name: installing {{component}} package
+- name: "installing {{component}}"
   ansible.builtin.package:
     name: {{component}}
     state: present
+    
