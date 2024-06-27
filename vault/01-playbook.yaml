@@ -1,0 +1,5 @@
+- name: using ansible vault
+  hosts: localhost
+  tasks:
+  ansible.builtin.debug
+    msg: iam loged in using vault
